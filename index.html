@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>RPS simple game</title>
+  
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div>
+    <div>
+      <span class="scores">Your Scores: </span>
+        <p class="results para"></p>
+        <p class="takes para2"></p>
+          <p class="outs"></p>
+    </div>
+    <div class="buttons">
+      <button onclick="playGame('rock')" class="btns"
+        >✊</button>
+        <button onclick="playGame('paper')" class="btns">✋</button>
+        <button onclick="playGame('scissors' )" class="btns">✌️</button>
+    </div>
+    <div class="buttons">
+      <button onclick="
+      resetScores();
+      " class="btns2">reset</button>
+      <button class='auto btns2'>AutoPlay</button>
+    </div>
+        
+  </div>
+      
+  <script src="app.js"></script>
+</body>
+</html>
